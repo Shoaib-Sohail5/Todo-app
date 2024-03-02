@@ -55,3 +55,7 @@ app.get('/todos', async (req, res) => {
 })
 
 app.use(express.json())
+
+app.listen(3000, () => {
+    console.log("listening...")
+})
